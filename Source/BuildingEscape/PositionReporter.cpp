@@ -21,7 +21,9 @@ void UPositionReporter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	FString ObjectName = GetOwner()->GetName();
+    FString ObjectLabel = GetOwner()->GetActorLabel();
+    UE_LOG(LogTemp, Warning, TEXT("Reporting for Duty object %s here! object Label %s"), *ObjectName, *ObjectLabel);
 	
 }
 
