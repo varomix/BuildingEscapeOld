@@ -36,6 +36,9 @@
 *.opensdf
 *.sdf
 *.VC.opendb
+*.codelite
+*.kdev4
+*.workspace
 
 # Precompiled Assets
 SourceArt/**/*.png

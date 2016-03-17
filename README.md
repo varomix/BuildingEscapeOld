@@ -1,2 +1,3 @@
-*** From the UDEMY C++ Class ***
-BuildingEscape
+# From the UDEMY C++ Class
+
+** BuildingEscape
