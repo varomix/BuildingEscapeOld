@@ -26,8 +26,8 @@ void UOpenDoor::BeginPlay()
     //GetOwner()->SetActorRotation(aRotation);
 
     //faster way
-    //FRotator NewRotation = FRotator(0.f, 60.0f, 0.f);
-    GetOwner()->SetActorRotation(FRotator(0.f, 60.0f, 0.f));
+    //FRotator NewRotation = FRotator(0.f, -60.0f, 0.f);
+    GetOwner()->SetActorRotation(FRotator(0.f, -120.0f, 0.f));
 }
 
 
