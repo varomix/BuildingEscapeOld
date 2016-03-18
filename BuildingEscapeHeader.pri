@@ -7185,6 +7185,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private/Server/SlateRemoteServerMessage.h" \
 	"$$unrealRootPath/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private/Shared/SlateRemoteSettings.h" \
 	"$$BuildingEscapeRootPath/Source/BuildingEscape/BuildingEscape.h" \
+	"$$BuildingEscapeRootPath/Source/BuildingEscape/OpenDoor.h" \
 	"$$BuildingEscapeRootPath/Source/BuildingEscape/PositionReporter.h" \
  
 

@@ -5315,6 +5315,7 @@ SOURCES += \
 	"$$unrealRootPath/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private/SlateRemoteModule.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private/Server/SlateRemoteServer.cpp" \
 	"$$BuildingEscapeRootPath/Source/BuildingEscape/BuildingEscape.cpp" \
+	"$$BuildingEscapeRootPath/Source/BuildingEscape/OpenDoor.cpp" \
 	"$$BuildingEscapeRootPath/Source/BuildingEscape/PositionReporter.cpp" \
  
 

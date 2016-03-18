@@ -23,7 +23,9 @@ void UPositionReporter::BeginPlay()
 
 	FString ObjectName = GetOwner()->GetName();
     FString ObjectLabel = GetOwner()->GetActorLabel();
-    UE_LOG(LogTemp, Warning, TEXT("Reporting for Duty object %s here! object Label %s"), *ObjectName, *ObjectLabel);
+    FVector ObjectLocation = GetOwner()->GetActorLocation();
+
+    UE_LOG(LogTemp, Warning, TEXT("Reporting for Duty object %s here! the Object Label %s, it's location is %s"), *ObjectName, *ObjectLabel, *ObjectLocation.ToString());
 	
 }
 

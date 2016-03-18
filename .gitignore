@@ -63,3 +63,6 @@ Intermediate/*
 DerivedDataCache/*
 
 Content/StarterContent/*
+
+BuildingEscapeCodeCompletionFolders.txt
+BuildingEscapeCodeLitePreProcessor.txt
