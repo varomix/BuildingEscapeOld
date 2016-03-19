@@ -21,13 +21,16 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-    //aRotation = GetOwner()->GetActorRotation();
-    //aRotation.Yaw = 90;
-    //GetOwner()->SetActorRotation(aRotation);
+	OpenDoor();
+}
 
-    //faster way
-    //FRotator NewRotation = FRotator(0.f, -60.0f, 0.f);
-    GetOwner()->SetActorRotation(FRotator(0.f, -120.0f, 0.f));
+void UOpenDoor::OpenDoor()
+{
+	// Find the owner
+	AActor* Owner = GetOwner();
+
+	// open the door
+	Owner->SetActorRotation(FRotator(0.f, OpenAngle, 0.f));
 }
 
 
